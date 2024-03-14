@@ -77,8 +77,8 @@ body{
 
 .skillsSection,
 .contactSection {
-	background-color: #040810;
-	color: #ffffff;
+	background-color: #eeeeee;
+	color: #000000;
 }
 
 .clientSection{
@@ -171,18 +171,18 @@ body{
 }
 
 .contactButton {
-	color: #fff;
+	color: #000000;
 	padding: 15px 20px;
 	display: inline-block;
 	margin-top: 20px;
-	border: 2px solid #fff;
+	border: 2px solid #000000;
 	border-radius: 15px;
 }
 
 .contactButton:hover {
 	text-decoration: none;
-	color: #00E100;
-	border-color: #00E100;
+	color: #db0909;
+	border-color: #e00707;
 }
 
 .filter a {
@@ -430,4 +430,62 @@ body{
 	height: 50px;
 	width: 250px;
 }
+
+
+
+.box-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+}
+
+.box-container .box{
+	box-shadow: 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	background-color:#fff;
+	text-align: center;
+	padding: 30px 20px;
+	margin:10px;
+}
+
+.box-container .box img{
+	height: 80px;
+}
+
+.box-container .box h3{
+	color: #444;
+	font-size: 22px;
+	padding: 10px 0;
+}
+
+.box-container .box p{
+	color: #777;
+	font-size: 15px;
+	line-height: 1.8;
+}
+
+.box-container .box .btn{
+	margin-top: 10px;
+	display: inline-block;
+	background: #333;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 5px;
+	padding: 8px 25px;
+}
+
+.box-container .box .btn:hover{
+	letter-spacing: 1px;
+}
+
+.box-container .box:hover{
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.03);
+}
+
+/* @media (max-width:768px) {
+	.container{
+		padding: 20px;
+	}
+} */
+
 
