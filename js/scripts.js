@@ -143,3 +143,4 @@ ScrollReveal().reveal('.col-md-7',{interval:500});
 ScrollReveal().reveal('.headline', { delay: 700 });
 ScrollReveal().reveal('.tagline', { delay: 800 });
 ScrollReveal().reveal('.punchline', { delay: 1000 });
+ScrollReveal().reveal('.section');
