@@ -137,3 +137,9 @@ $(document).ready(function(){
 
 var copy=document.querySelector(".client-logo").cloneNode(true);
 document.querySelector(".logos").appendChild(copy);
+
+ScrollReveal().reveal('.col-md-5',{duration: 1000});
+ScrollReveal().reveal('.col-md-7',{interval:500});
+ScrollReveal().reveal('.headline', { delay: 700 });
+ScrollReveal().reveal('.tagline', { delay: 800 });
+ScrollReveal().reveal('.punchline', { delay: 1000 });
